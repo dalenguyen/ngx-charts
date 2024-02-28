@@ -2,7 +2,7 @@
   "name": "ngx-charts",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/ngx-charts/src",
-  "prefix": "dalenguyen",
+  "prefix": "dngx",
   "tags": ["type:lib"],
   "projectType": "library",
   "targets": {

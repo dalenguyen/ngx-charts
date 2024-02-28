@@ -1,13 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, NO_ERRORS_SCHEMA } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { NgxChartsComponent } from '@dalenguyen/ngx-charts';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [RouterModule, NgxChartsComponent],
   selector: 'dalenguyen-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  template: `<dngx />`,
+  schemas: [NO_ERRORS_SCHEMA]
 })
 export class AppComponent {
   title = 'charts-demo';
