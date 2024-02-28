@@ -1,0 +1,26 @@
+{
+  "name": "ngx-charts",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/ngx-charts/src",
+  "prefix": "dalenguyen",
+  "tags": ["type:lib"],
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:package",
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "options": {
+        "project": "libs/ngx-charts/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/ngx-charts/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/ngx-charts/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    }
+  }
+}
