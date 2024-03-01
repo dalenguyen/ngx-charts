@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@dalenguyen/ngx-charts": ["libs/ngx-charts/src/index.ts"]
+      "@dalenguyen/ngx-charts": ["libs/ngx-charts/src/index.ts"],
+      "@dalenguyen/ngx-charts/line": ["libs/ngx-charts/line/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
