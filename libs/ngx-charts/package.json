@@ -1,6 +1,6 @@
 {
   "name": "@dalenguyen/ngx-charts",
-  "version": "0.0.1",
+  "version": "0.0.2-beta",
   "peerDependencies": {
     "@angular/common": "^17.1.0",
     "@angular/core": "^17.1.0"
